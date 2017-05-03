@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.params=directory\ key\ cipherMode
+comment0.target=void\ iterateDir(java.lang.String,\ byte[],\ int)
+numComments=1

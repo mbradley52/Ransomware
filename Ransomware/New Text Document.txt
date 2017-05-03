@@ -1,0 +1,68 @@
+//directoryCycler.encryptMode(plainTextFiles, key, outputFilePath);
+
+        //         if (plainTextFiles.length == 0)
+        //             System.out.println("The directory is empty");
+        //         else
+        //         {
+        //             for (int x = 0; x < plainTextFiles.length; x++)
+        //             {
+        //                 File file = plainTextFiles[x];
+        // 
+        //                 try{
+        //                     Encrypt.doCrypto(Cipher.ENCRYPT_MODE, key, file, directoryPath);
+        //                     System.out.println("Encryption check");
+        //                 }
+        //                 catch(Exception e){
+        //                     e.printStackTrace();
+        //                 }
+        //                 //plainTextFiles[x].delete();
+        //             }
+        //         }
+        //         File[] encryptedFiles = encryptedDir.listFiles();
+        // 
+        //         boolean hasPassword = false;
+        //         while(hasPassword == false)
+        //         {
+        //             // Get user entered password:
+        //             Scanner sc = new Scanner(System.in);
+        //             System.out.println("Enter the password in order to decrypt files:");
+        //             passInput = sc.nextLine();
+        //             //Hash users inputed password
+        //             passInput = SHA1.Hash(passInput).toString();
+        // 
+        //             //Get stored hash of password from text file
+        //             String storedHash = Encrypt.getHash(hashDirectory).toString();
+        // 
+        //             //compare hashes
+        //             boolean hashVerification = SHA1.verifyHash(storedHash, passInput);
+        // 
+        //             //--------Decryption-----------
+        //             if(hashVerification == true)
+        //             {
+        //                 if (encryptedFiles.length == 0)
+        //                 {
+        //                     System.out.println("The directory is empty");
+        //                     hasPassword = true;
+        //                 }
+        //                 else
+        //                 {
+        //                     hasPassword = true;
+        //                     for (int x = 0; x < encryptedFiles.length; x++)
+        //                     { 
+        //                         File file = encryptedFiles[x];
+        // 
+        //                         try{
+        //                             Encrypt.doCrypto(Cipher.DECRYPT_MODE, key, file, decryptedFilePath);
+        //                             System.out.println("Decryption check");
+        //                         }
+        //                         catch(Exception e){
+        //                             e.printStackTrace();
+        //                         }
+        //                         //encryptedFiles[x].delete();
+        //                     }
+        //                     //             }
+        //                 }
+        //             }
+        //             else
+        //                 System.out.println("Wrong Password");
+        //         }

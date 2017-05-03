@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.lang.String\ getHash()
+comment1.params=
+comment1.target=int\ getID()
+comment2.params=cipherMode\ key\ inputFile
+comment2.target=void\ doCrypto(int,\ byte[],\ java.io.File)
+comment3.params=dir\ hash\ victimID
+comment3.target=void\ writeHashFile(java.lang.String,\ java.lang.String,\ int)
+comment4.params=dir
+comment4.target=void\ readHash(java.lang.String)
+numComments=5
